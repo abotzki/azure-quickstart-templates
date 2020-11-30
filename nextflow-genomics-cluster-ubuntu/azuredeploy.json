@@ -18,15 +18,12 @@
     },
     "vmImageReference": {
       "type": "object",
-      "defaultValue": {
-        "publisher": "Canonical",
-        "offer": "UbuntuServer",
-        "sku": "18.04-LTS",
-        "version": "latest"
+      "defaultValue": {  
+        "id": "/subscriptions/fb3435de-8f97-43cf-b2db-7cde03cec09b/resourceGroups/VIBbits/providers/Microsoft.Compute/galleries/vibbits/images/18.04-flexx/versions/0.0.1"
       },
       "metadata": {
         "description": "The image to use for VMs created. This can be marketplace or custom image",
-        "link": "https://docs.microsoft.com/en-us/nodejs/api/azure-arm-compute/imagereference?view=azure-node-2.2.0"
+        "link": "https://docs.microsoft.com/en-us/javascript/api/@azure/arm-batch/imagereference?view=azure-node-latest"
       }
     },
     "vmNodeSku": {
